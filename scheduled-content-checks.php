@@ -37,14 +37,13 @@ require_once __DIR__ . '/includes/notices.php';
 require_once __DIR__ . '/includes/process.php';
 require_once __DIR__ . '/includes/queries.php';
 require_once __DIR__ . '/includes/setup.php';
-/*
+
 // Check that we have the constant available for loading CLI.
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
 
 	// Load our individual commands files.
-	require_once __DIR__ . '/includes/cli-command.php';
+	require_once __DIR__ . '/includes/cli-commands.php';
 
 	// And add our commands.
-	WP_CLI::add_command( 'member-commands', MemberCommands::class );
+	WP_CLI::add_command( 'scc-commands', ScheduledContentCommands::class );
 }
-*/
